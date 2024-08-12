@@ -10,7 +10,14 @@ export function Main() {
 
 const styles = StyleSheet.create({
   tittle: {
+    flex: 1,
     color: "white",
     fontSize: 40,
+    fontWeight: "bold",
+    paddingTop: 50,
+    textAlign: "left",
+    margin: 0,
+    alignItems: "flex-start",
+    justifyContent: "center",
   },
 });
