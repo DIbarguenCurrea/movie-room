@@ -1,21 +1,17 @@
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, View } from "react-native";
+import Home from "../../pages/Home";
 
 export function Main() {
   return (
-    <View>
-      <Text style={styles.tittle}>Movie Room</Text>
+    <View style={styles.container}>
+      <Home />
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  tittle: {
+  container: {
     flex: 1,
-    color: "white",
-    fontSize: 30,
-    paddingTop: 40,
-    fontWeight: "bold",
-    textAlign: "left",
     margin: 0,
   },
 });
